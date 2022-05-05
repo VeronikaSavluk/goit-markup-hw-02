@@ -56,6 +56,7 @@ body {
   color: var(--secondary-text-color);
 }
 .hero-button {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -89,6 +90,9 @@ body {
   text-align: center;
   color: var(--text-color);
 }
+.studio-headline {
+color: var(--primery-bg-color);
+}
 /* Team */
 .team-member {
   font-weight: 500;
@@ -114,6 +118,10 @@ body {
 }
 .address {
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .address .link {
   font-weight: 400;
@@ -133,11 +141,12 @@ body {
   letter-spacing: 0.03em;
 }
 .portfolio-button {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.62;
   border: none;
   text-align: center;
   letter-spacing: 0.03em;
